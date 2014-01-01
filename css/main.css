@@ -1,3 +1,11 @@
+/* 
+ * Fonts tried and ignored
+ *
+ * @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic);
+ * @import url(http://fonts.googleapis.com/css?family=Fenix);
+ */
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,300,300italic,700,700italic);
+
 /* custom made icon font containing the cake symbol. */
 
 @font-face {
@@ -25,11 +33,7 @@
 	content: "\63";
 }
 
-/* 
- * @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic);
-   @import url(http://fonts.googleapis.com/css?family=Fenix);
- */
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,300,300italic,700,700italic);
+/* Site theme */
 
 body, 
 .pure-g [class *= "pure-u"],
@@ -38,26 +42,18 @@ body,
     color: hsl(0, 0%, 25%); 
 }
 
-.site-tile {
-    text-align: center;
+body { position: relative; }
+
+header { 
+    margin: 30px auto; 
+    position: relative; /* used by children */
 }
 
-#brand {
-    text-align: center;
-    position: relative;
-}
-
-#brand .streak { z-index: -1; }
+header .streak { z-index: -1; }
 
 #intro code {
     font-size: 22px;
     font-weight: normal;
-}
-
-#activity:after { content: '.'; }
-
-.social-media-links {
-    font-size: 48px;
 }
 
 .social-media-link {
@@ -74,26 +70,42 @@ body,
     border-radius: 50%;
     border: 1px solid hsla(197, 65%, 50%, 0.3);
     box-shadow: inset 0 0 5px hsla(197, 65%, 50%, 0.3);
-    -webkit-transition: all 0s ease;
+
     -webkit-transition: background-color 0.3s ease;
+       -moz-transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease;
 }
-.cake-box:hover { -webkit-transform: rotate(360deg); }
+.cake-box:hover { 
+    -webkit-transform: rotate(360deg); 
+       -moz-transform: rotate(360deg); 
+            transform: rotate(360deg); 
+}
 
 .cake-box:hover, 
 .cake-box:hover + .streak > .circle {
     -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
     background-color: hsl(197, 65%, 98%);
 }
 
 .cake {
     display: block;
     -webkit-transition: all 0s ease-out;
+       -moz-transition: all 0s ease-out;
+            transition: all 0s ease-out;
 }
 
 .cake-box:hover .cake {
     -webkit-transform: scale(3) scale(0.33);
+       -moz-transform: scale(3) scale(0.33);
+            transform: scale(3) scale(0.33);
     -webkit-transition: all 0.3s ease-out;
+       -moz-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
     -webkit-transition-delay: 0.2s;
+       -moz-transition-delay: 0.2s;
+            transition-delay: 0.2s;
 }
 
 #main {
@@ -130,9 +142,7 @@ hr {
     color: hsl(0, 0%, 50%);
     opacity: 0.8;
 }
-.centered-text {
-    text-align: center;
-}
+.tac { text-align: center; }
 .vertical-center {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -145,7 +155,11 @@ a {
 }
 a:visited { color: hsl(0, 0%, 40%); }
 a:hover { color: hsl(197, 65%, 50%); }
-a:active { -webkit-transform: scale(0.95); }
+a:active { 
+    -webkit-transform: scale(0.95); 
+       -moz-transform: scale(0.95); 
+            transform: scale(0.95); 
+}
 
 /* shapes */
 .streak {
@@ -162,6 +176,8 @@ a:active { -webkit-transform: scale(0.95); }
     width: 21px;
     display: none;
     -webkit-transition: background-color 0.3s ease;
+       -moz-transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease;
 }
 
 .circle:nth-child(2n+1) {
@@ -173,6 +189,8 @@ a:active { -webkit-transform: scale(0.95); }
 #circle-2 { right: 40%; }
 #circle-3 { left: 70%; }
 #circle-4 { left: 40%; }
+
+/* Blog post theme */
 
 .post {
     font-size: 14px;
