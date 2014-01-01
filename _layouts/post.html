@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<section class="post-container">
+    <h1 class="tac">{{ page.title }}</h1>
+    <h4 class="tac">{{ page.excerpt }}</h4>
+    <h5 class="muted tac">{{ page.date | date_to_string }}</h5>
+    <div class="post">{{ content }}</div>
+    <ul class="post-tags">
+        {% for category in page.categories %}
+            <li>
+                <span class="post-tag muted" href="#">{{ category }}</span>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
 
-<div class="post">
-{{ content }}
-</div>
+<hr class="streak" />

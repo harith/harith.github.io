@@ -1,10 +1,10 @@
-/* 
+/*
  * Fonts tried and ignored
  *
  * @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic);
  * @import url(http://fonts.googleapis.com/css?family=Fenix);
- */
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,300,300italic,700,700italic);
+ */
 
 /* custom made icon font containing the cake symbol. */
 
@@ -35,15 +35,15 @@
 
 /* Site theme */
 
-body, 
+body,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
     font-family: 'Merriweather', 'Libre Baskerville', serif;
-    color: hsl(0, 0%, 25%); 
+    color: hsl(0, 0%, 25%);
 }
 
-header { 
-    margin: 30px auto; 
+header {
+    margin: 30px auto;
     position: relative; /* used by children */
 }
 
@@ -73,13 +73,13 @@ header .streak { z-index: -1; }
        -moz-transition: background-color 0.3s ease;
             transition: background-color 0.3s ease;
 }
-.cake-box:hover { 
-    -webkit-transform: rotate(360deg); 
-       -moz-transform: rotate(360deg); 
-            transform: rotate(360deg); 
+.cake-box:hover {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+            transform: rotate(360deg);
 }
 
-.cake-box:hover, 
+.cake-box:hover,
 .cake-box:hover + .streak > .circle {
     -webkit-transition: all 0.3s ease;
        -moz-transition: all 0.3s ease;
@@ -113,7 +113,7 @@ header .streak { z-index: -1; }
 
 .post-date,
 .post-link {
-    display: inline-block; 
+    display: inline-block;
     vertical-align: top;
 }
 
@@ -125,9 +125,9 @@ header .streak { z-index: -1; }
 
 /* Generics */
 .has-inline-blocks { font-size: 0; }
-ul, li { 
+ul, li {
     padding: 0;
-    margin: 0; 
+    margin: 0;
     list-style-type: none;
 }
 hr {
@@ -146,17 +146,22 @@ hr {
     top: 0; left: 0; right: 0; bottom: 0;
     margin: auto;
 }
-a { 
-    transition: all 0.1s ease-out; 
+a,
+.social-media-links a:visited {
+    transition: all 0.1s ease-out;
     text-decoration: none;
-    color: hsl(0, 0%, 25%); 
+    color: hsl(0, 0%, 25%);
 }
 a:visited { color: hsl(0, 0%, 40%); }
-a:hover { color: hsl(197, 65%, 50%); }
-a:active { 
-    -webkit-transform: scale(0.95); 
-       -moz-transform: scale(0.95); 
-            transform: scale(0.95); 
+a#root-link,
+a#root-link:visited,
+.social-media-links a:hover, a:hover {
+    color: hsl(197, 65%, 50%);
+}
+a:active {
+    -webkit-transform: scale(0.95);
+       -moz-transform: scale(0.95);
+            transform: scale(0.95);
 }
 
 /* shapes */
@@ -192,9 +197,9 @@ a:active {
 
 .post {
     font-size: 14px;
-    line-height: 22px;
-    text-align: justify;
+    line-height: 24px;
 }
+.post p { text-align: justify; }
 
 .post a {
     display: inline-block;
@@ -203,12 +208,19 @@ a:active {
 .post a:visited { color: hsl(197, 65%, 70%); }
 .post a:hover { color: hsl(197, 65%, 40%); }
 
-.post-tags { 
+/* heading and subheading in the post */
+.post h2 + h3 {
+    margin-top: -1em;
+    color: hsl(0, 0%, 50%);
+    opacity: 0.8;
+}
+
+.post-tags {
     font-family: sans-serif;
-    padding: 10px 0; 
+    padding: 10px 0 0;
 }
 .post-tags li { display: inline-block; }
-.post-tag, 
+.post-tag,
 .post-tag:visited {
     font-size: 12px;
     font-weight: bold;
@@ -223,21 +235,21 @@ a:active {
     #main { width: 80%; }
     .circle { display: block; }
     .cake-box { font-size: 36px; padding: 10px; }
-    .post { line-height: 23px; }
+    .post { line-height: 30px; font-size: 16px; }
     .posts li { margin-bottom: 35px; }
 }
 
 @media all and (min-width: 769px) {
     #main { width: 70%; }
     .cake-box { font-size: 42px; padding: 12px; }
-    .post { line-height: 26px; }
+    .post { line-height: 32px; font-size: 16px; }
     .posts li { margin-bottom: 40px; }
 }
 
 @media all and (min-width: 1025px) {
     #main { width: 60%; }
     .cake-box { font-size: 48px; padding: 15px; }
-    .post { line-height: 28px; }
+    .post { line-height: 36px; font-size: 18px; }
     .posts li { margin-bottom: 45px; }
 }
 
