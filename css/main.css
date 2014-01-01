@@ -50,7 +50,6 @@ header {
 header .streak { z-index: -1; }
 
 #intro code {
-    font-size: 22px;
     font-weight: normal;
 }
 
