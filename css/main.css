@@ -167,7 +167,11 @@ a:active {
 .streak {
     height: 1px;
     display: block;
-    background: radial-gradient(hsl(197, 65%, 48%), hsla(0, 100%, 100%, 0.1));
+    background: hsla(197, 65%, 48%, 0.6); /* fallback if gradient doesn't work */
+    background: -webkit-radial-gradient(ellipse, hsl(197, 65%, 48%), hsla(0, 100%, 100%, 0.1));
+    background: -moz-radial-gradient(ellipse, hsl(197, 65%, 48%), hsla(0, 100%, 100%, 0.1));
+    background: -ms-radial-gradient(ellipse, hsl(197, 65%, 48%), hsla(0, 100%, 100%, 0.1));
+    background: radial-gradient(ellipse, hsl(197, 65%, 48%), hsla(0, 100%, 100%, 0.1));
 }
 .circle {
     border-radius: 50%;
