@@ -2,8 +2,8 @@
 layout: default
 title: the cake is a lie
 ---
-<section class="pure-g-r">
-    <div id="intro" class="tac pure-u-1-2">
+<section id="intro" class="pure-g-r">
+    <div class="tac pure-u-1-2">
         <h1>Hello, I'm Harith.</h1>
         <h3 class="muted">I write <code>code</code> for a living</h3>
     </div>
@@ -23,4 +23,19 @@ title: the cake is a lie
     </div>
 </section>
 
-<hr class="streak" />
+<hr class="vblock streak" />
+
+<h3 class="vblock">I also blog, occasionally </h3>
+<ul class="posts">
+    {% for post in site.posts %}
+    <li class="has-inline-blocks pure-g-r">
+        <div class="muted pure-u-1-8 post-date">{{ post.date | date_to_string }}</div>
+        <a class="pure-u-7-8 post-link" href="{{ post.url }}">
+            <div class="post-title">{{ post.title }}</div>
+            <div class="post-summary">{{ post.excerpt }}</div>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+
+<hr class="vblock streak" />
