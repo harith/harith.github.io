@@ -156,7 +156,7 @@ a,
     text-decoration: none;
     color: hsl(0, 0%, 25%);
 }
-a:visited { color: hsl(0, 0%, 40%); }
+a:visited { color: hsl(0, 0%, 60%); }
 a#root-link,
 a#root-link:visited,
 .social-media-links a:hover, a:hover {
