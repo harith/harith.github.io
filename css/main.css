@@ -203,7 +203,7 @@ a:active {
 
 .post {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.5em;
 }
 .post p { text-align: justify; }
 
@@ -262,23 +262,23 @@ a:active {
 .post-tag:hover { opacity: 1; }
 .posts li { margin-bottom: 25px; }
 @media all and (min-width: 481px) {
-    #main { width: 80%; }
+    #main { width: 90%; }
     .circle { display: block; }
     .cake-box { font-size: 36px; padding: 10px; }
-    .post { line-height: 30px; font-size: 16px; }
+    .post { line-height: 1.8em; font-size: 16px; }
     .posts li { margin-bottom: 30px; }
 }
 
 @media all and (min-width: 769px) {
-    #main { width: 70%; }
+    #main { width: 80%; }
     .cake-box { font-size: 42px; padding: 12px; }
-    .post { line-height: 32px; font-size: 16px; }
+    .post { line-height: 1.9em; font-size: 16px; }
     .posts li { margin-bottom: 35px; }
 }
 
 @media all and (min-width: 1025px) {
     #main { width: 60%; }
     .cake-box { font-size: 48px; padding: 15px; }
-    .post { line-height: 36px; font-size: 18px; }
+    .post { line-height: 2em; font-size: 18px; }
 }
 
