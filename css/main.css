@@ -218,7 +218,7 @@ a:active {
     opacity: 0.8;
 }
 
-.post blockquote {
+.post > blockquote {
     margin: 20px;
     padding: 10px 20px;
     border-left: 5px solid hsl(197, 65%, 70%);
@@ -226,7 +226,19 @@ a:active {
     font-style: italic;
 }
 
-.post blockquote p { margin: 0; }
+.post > blockquote p { margin: 0; }
+
+.post > blockquote + ul {
+    margin-right: 40px;
+    margin-top: -20px;
+    text-align: right;
+    font-size: 0.9em;
+}
+
+.post img {
+    display: block;
+    margin: auto;
+}
 
 .post-excerpt { margin: auto; width: 80% }
 
