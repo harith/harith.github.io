@@ -212,11 +212,23 @@ a:active {
 .post a:hover { color: hsl(197, 65%, 40%); }
 
 /* heading and subheading in the post */
-.post h2 + h3 {
+.post h3 + h4 {
     margin-top: -1em;
     color: hsl(0, 0%, 50%);
     opacity: 0.8;
 }
+
+.post blockquote {
+    margin: 20px;
+    padding: 10px 20px;
+    border-left: 5px solid hsl(197, 65%, 70%);
+    color: hsla(0, 0%, 0%, 0.6);
+    font-style: italic;
+}
+
+.post blockquote p { margin: 0; }
+
+.post-excerpt { margin: auto; width: 80% }
 
 .post-tags {
     font-family: sans-serif;
