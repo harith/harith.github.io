@@ -7,6 +7,7 @@ excerpt: A new year from the perspective of Rig Veda
 ---
 
 ![Happy new year?](/img/now.jpg "Happy new year?")
+{: .tac }
 
 > Who really knows? Who will proclaim it?  
 > Whence was it produced? Whence is this creation?  
