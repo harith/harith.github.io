@@ -5,7 +5,8 @@ layout: default
     <h1 class="tac">{{ page.title }}</h1>
     <h4 class="tac post-excerpt">{{ page.excerpt }}</h4>
     <h5 class="muted tac">{{ page.date | date_to_string }}</h5>
-    <div class="post">{{ content }}</div>
+    <hr class="vblock">
+    <div class="text-heavy post">{{ content }}</div>
     <ul class="post-tags">
         {% for category in page.categories %}
             <li>

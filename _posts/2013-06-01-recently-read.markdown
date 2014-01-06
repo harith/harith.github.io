@@ -12,6 +12,8 @@ excerpt: Notes on some books I finished reading recently. Covers history, philos
 
 As bad as the first one. I have nothing else to say. I’ll probably read the rest of the story on wikipedia for closure.
 
+ ---
+
 ### Zen and the Art of Motorcycle Maintenance ###
 
 #### Robert M. Pirsig  ####
@@ -20,11 +22,15 @@ Just like the disclaimer says, this is neither a guide to motorcycle maintenance
 
 I’m not sure I was able to grasp the content of the book in one read. Due to lack of eloquence, I must concede - this is some deep shit.
 
+ ---
+
 ### Tales of Dunk and Egg ###
 
 #### George R. R. Martin  ####
 
 A collection of short stories about Ageon the unlikely and Sir Duncan the Tall. The story starts out as a normal heroic tale and proceeds to turn in unexpected ways. There are 3 books currently and all of them are well written in true GRRM style. I am now longing for Winds of Winter.
+
+ ---
 
 ### A Tale of Two Cities ###
 
@@ -32,11 +38,15 @@ A collection of short stories about Ageon the unlikely and Sir Duncan the Tall. 
 
 I read this because Nolan said that parts of TDKR were inspired by this story. That was probably the mistake. I should have read it like any other book. Instead, my focus was on drawing analogies between TDKR and French revolution (at which I failed miserably). The archaic prose was difficult for me and the French names did not help.
 
+ ---
+
 ### The Girl Who Came Home ###
 
 #### Hazel Gaynor ####
 
 This book (inspired by a true story) is about a small group of people from Ireland, who were shown the promise of America, that decided to cross the Atlantic ocean in Titanic. The story follows ‘Maggie’ and her ordeal as the ship goes down. While most of the story resembles James Cameroon’s movie (first class, third class, the differences, the luxury etc.), this book also depicts the panic on the land as people on either sides of the Atlantic begin to hear news about the accident. The narration is beautiful and the anachronism provides a relief from the monotony of the story we all know.
+
+ ---
 
 ### The Silmarillion ###
 

@@ -12,6 +12,8 @@ excerpt: A lonely mountain, an evil boar and some rubbish writing.
 
 The first time I read the book was when the trailer came out. I could not resist the temptation of reading it again after watching the movie and I was mildly surprised that a minor conversational reference to the stone giants turned into a huge cgi sequence in the movie. Reading this again after The Song of Ice and Fire reaffirmed my faith in Tolkien as the master of the genre.
 
+ ---
+
 ### Animal Farm ###
 
 #### George Orwell ####
@@ -19,6 +21,8 @@ The first time I read the book was when the trailer came out. I could not resist
 > All animals are equal, but some animals are more equal than others.
 
 This is British satire at its best. It is better if you go ahead with this book knowing absolutely nothing about the story. How it evolves will be a surprise and you’ll love it when you realise what it really means.
+
+ ---
 
 ### Immortals of Meluha ###
 

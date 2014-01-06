@@ -12,6 +12,8 @@ excerpt: On the Mahabharata and the Bombay mafia.
 
 Avoidable. Especially if you have read any other critically acclaimed Mahabharata related works. The narrative is not compelling and the anachronisms did not make any logical sense. Having said that, the book has a healthy amount of focus on Karna's character which I think was very well done. The author was also sucessful in being impartial to the pandavas. Pandavas or Arjuna were not elevated to hero status. They were instead rendered as regular humans with flaws like most of us.
 
+ ---
+
 ### Dongri to Dubai ###
 
 #### _Hussain Zaidi_ ####
