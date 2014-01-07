@@ -226,10 +226,11 @@ a:active {
     opacity: 0.8;
 }
 
-.post > blockquote {
+#resume blockquote, 
+.post blockquote {
     margin: 20px;
-    padding: 10px 20px;
-    border-left: 5px solid hsl(197, 65%, 70%);
+    padding: 0px 20px;
+    border-left: 3px solid hsl(197, 65%, 70%);
     color: hsla(0, 0%, 0%, 0.6);
     font-style: italic;
 }
@@ -284,4 +285,4 @@ a:active {
 
 /* Resume styles */
 
-#resume h3 { color: hsl(0, 0%, 10%); }
+#resume h2 { color: hsl(197, 65%, 50%); }
