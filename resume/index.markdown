@@ -5,7 +5,7 @@ layout: resume
 ## Skills ##
 
 * Python, Ruby, Java, Javascript.
-* Rails, Backbone, jQuery
+* Rails, Backbone, jQuery.
 * Front end design and development.
 
  ---
@@ -24,6 +24,15 @@ layout: resume
  ---
 
 ## Selected Projects ##
+
+### Web development at Amazon ###
+
+> End to end design and development of internal websites.  One of them is based
+> on Rails and provides analytics on how engineers spend their time on
+> operations. Another website, built using Python Flask framework, visualizes
+> data from service logs and provides insight into computations that occurred
+> during an API call. I was also involved in the development of other internal
+> tools and gained good experience in full stack web development.
 
 ### Score Vector _(Masters Thesis)_ ###
  
