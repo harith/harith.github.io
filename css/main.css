@@ -209,7 +209,7 @@ a:active {
 
 .text-heavy {
     font-size: 1.1rem;
-    line-height: 2;
+    line-height: 1.8;
 }
 
 .text-heavy a {
@@ -218,6 +218,13 @@ a:active {
 }
 .text-heavy a:visited { color: hsl(197, 65%, 70%); }
 .text-heavy a:hover { color: hsl(197, 65%, 40%); }
+
+.post > p > code {
+    padding: 0.15em;
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 90%);
+    border-radius: 3px;
+}
 
 /* heading and subheading in the post */
 /* TODO: This is specifically written for posts with bookname and author 
