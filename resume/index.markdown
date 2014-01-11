@@ -4,7 +4,7 @@ layout: resume
 
 ## Skills ##
 
-* Python, Ruby, Java, Javascript.
+* Python, Ruby, Java, Javascript, CSS
 * Rails, Backbone, jQuery.
 * Front end design and development.
 

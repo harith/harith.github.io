@@ -38,7 +38,7 @@
 body,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
-    font-family: 'Merriweather', 'Libre Baskerville', serif;
+    font-family: 'Merriweather', 'Georgia', serif;
 }
 
 body {
@@ -46,7 +46,7 @@ body {
 }
 
 header {
-    margin: 20px auto auto;
+    margin: 1rem auto auto;
     position: relative; /* used by children */
 }
 
@@ -59,16 +59,16 @@ header .streak { z-index: -1; }
 #intro h3 { margin-bottom: 0; }
 
 .social-media-link {
-    padding: 5px;
+    padding: 0.5rem;
 }
 
 .cake-box {
-    font-size: 36px;
+    font-size: 2rem;
     cursor: pointer;
     display: inline-block;
     color: hsl(197, 65%, 50%);
     background-color: white;
-    padding: 10px;
+    padding: 1rem;
     border-radius: 50%;
     border: 1px solid hsla(197, 65%, 50%, 0.3);
     box-shadow: inset 0 0 5px hsla(197, 65%, 50%, 0.3);
@@ -121,15 +121,15 @@ header .streak { z-index: -1; }
     vertical-align: top;
 }
 
-.post-summary, .post-date { font-size: 14px; }
-.post-title { font-size: 16px; font-weight: bold;  }
-.post-title, .post-date {margin-bottom: 10px;}
+.post-summary, .post-date { font-size: 0.9rem; }
+.post-title { font-size: 1rem; font-weight: bold;  }
+.post-title, .post-date {margin-bottom: 0.5rem;}
 
 /* Generics */
 
 dt { font-weight: bold; }
 
-.big-bold-text { font-size: 2em; }
+.big-bold-text { font-size: 2rem; }
 .bold-text, .big-bold-text { font-weight: 700; }
 .has-inline-blocks { font-size: 0; }
 ul, li {
@@ -145,7 +145,7 @@ hr {
     background-image: -ms-linear-gradient(left, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0));
     background-image: linear-gradient(left, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0));
 }
-.vblock  { margin: 40px 0; } /* vertical block of content */
+.vblock  { margin: 2rem 0; } /* vertical block of content */
 .muted {
     color: hsl(0, 0%, 50%);
     opacity: 0.8;
@@ -187,8 +187,8 @@ a:active {
     border: 1px solid hsla(197, 65%, 50%, 0.3);
     box-shadow: inset 0 0 5px hsla(197, 65%, 50%, 0.3);
     background-color: hsl(0, 0%, 97%);
-    height: 21px;
-    width: 21px;
+    height: 1rem;
+    width: 1rem;
     display: none;
     -webkit-transition: background-color 0.3s ease;
        -moz-transition: background-color 0.3s ease;
@@ -196,8 +196,8 @@ a:active {
 }
 
 .circle:nth-child(2n+1) {
-    height: 11px;
-    width: 11px;
+    height: 0.75rem;
+    width: 0.75rem;
 }
 
 #circle-1 { right: 70%; }
@@ -208,8 +208,8 @@ a:active {
 /* Blog post theme */
 
 .text-heavy {
-    font-size: 14px;
-    line-height: 1.8em;
+    font-size: 1.1rem;
+    line-height: 2;
 }
 
 .text-heavy a {
@@ -220,16 +220,18 @@ a:active {
 .text-heavy a:hover { color: hsl(197, 65%, 40%); }
 
 /* heading and subheading in the post */
+/* TODO: This is specifically written for posts with bookname and author 
+ *       Make this more specific. */
 .post h3 + h4 {
-    margin-top: -1em;
+    margin-top: -1rem;
     color: hsl(0, 0%, 50%);
     opacity: 0.8;
 }
 
 #resume blockquote,
 .post blockquote {
-    margin: 20px;
-    padding: 0px 20px;
+    margin: 1rem;
+    padding: 0px 1rem;
     border-left: 3px solid hsl(197, 65%, 70%);
     color: hsla(0, 0%, 0%, 0.6);
     font-style: italic;
@@ -237,9 +239,10 @@ a:active {
 
 .post > blockquote p { margin: 0; }
 
+/* TODO: This style is for quote author. Apply styles to a class. This selector is stupid */
 .post > blockquote + ul {
-    margin-right: 40px;
-    margin-top: -20px;
+    margin-right: 2rem;
+    margin-top: -1rem;
     text-align: right;
     font-size: 0.9em;
 }
@@ -248,39 +251,33 @@ a:active {
 
 .post-tags {
     font-family: sans-serif;
-    padding: 10px 0 0;
 }
 .post-tags li { display: inline-block; }
 .post-tag,
 .post-tag:visited {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: bold;
-    padding: 5px 10px 5px 0;
+    padding: 0.5rem 0.75rem 0.5rem 0;
     text-decoration: none;
     text-transform: uppercase;
 }
 .post-tag:before { content: '#'; }
 .post-tag:hover { opacity: 1; }
-.posts li { margin-bottom: 25px; }
+.posts li { margin-bottom: 1.5rem; }
 @media all and (min-width: 481px) {
     #container { width: 90%; }
     .circle { display: block; }
-    .cake-box { font-size: 36px; padding: 10px; }
-    .text-heavy { line-height: 1.8em; font-size: 16px; }
-    .posts li { margin-bottom: 30px; }
 }
 
 @media all and (min-width: 769px) {
     #container { width: 80%; }
-    .cake-box { font-size: 42px; padding: 12px; }
-    .text-heavy { line-height: 1.9em; font-size: 16px; }
-    .posts li { margin-bottom: 35px; }
+    .cake-box { font-size: 2.25rem; }
+    .posts li { margin-bottom: 2rem; }
 }
 
 @media all and (min-width: 1025px) {
     #container { width: 60%; }
-    .cake-box { font-size: 48px; padding: 15px; }
-    .text-heavy { line-height: 2em; font-size: 18px; }
+    .cake-box { font-size: 2.5rem; }
 }
 
 /* Resume styles */
