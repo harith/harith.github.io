@@ -1,12 +1,15 @@
 ---
 layout: resume
+title: Harith Siddhārtha - CV
 ---
 
 ## Skills ##
 
-* Python, Ruby, Java, Javascript.
-* Rails, Backbone, jQuery.
-* Front end design and development.
+* Python, Ruby, Java
+
+* Javascript, CSS
+
+* Rails, Backbone, jQuery, Meteor
 
  ---
 
