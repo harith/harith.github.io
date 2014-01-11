@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Teleportation on the command line"
-date:   2014-01-10
-categories: 
+date:   2014-01-11
+categories:
     - technology
     - linux
     - command line
@@ -18,7 +18,7 @@ TAB won't auto-complete.
 I've used ```screen``` instances to stay in the project directory. But it's
 difficult to lose the screens during reboot.
 
-You probably trained your brain to ignore these frustrations. I did. 
+You probably trained your brain to ignore these frustrations. I did.
 
 **But once in a while my brain says screw that, this should not be so
 difficult.**
@@ -26,13 +26,22 @@ difficult.**
 Nobody _types_ an entire URL like
 ```https://example.com/example-page?input=sample&another-input=2```. We
 _bookmark_ it and give it a keyword like ```ex``` or something. From then, we
-just type ex and hit return to access the website. 
+just type ex and hit return to access the website.
 
-Things should be just as simple on the shell. So, I wrote this utility.
+Things should be just as simple on the command line. So, I wrote [this utility][shellmarks-gist].
 
-<script src="https://gist.github.com/harith/8340924.js"></script>
+[![shellmarks - instacode](http://instacod.es/file/85856)][shellmarks-gist]
+{: .tac }
+
+ ---
+
+To install, add the shellscript to ```.bashrc``` with this command.
+
+```curl https://gist.github.com/harith/8340924/raw/shellmarks.sh >> ~/.bashrc```
 
 When I am in a source directory I run ```mark <keyword>``` to mark it. Next
 time I need to access that source, I type the ```<keyword>``` on the command
 line and hit ```return```. That's it. No commands. Just the keyword and whoop,
 __teleported__.
+
+[shellmarks-gist]: https://gist.github.com/harith/8340924/ "shellmarks.sh"
