@@ -37,6 +37,12 @@ title: Harith Siddhārtha - CV
 > during an API call. I was also involved in the development of other internal
 > tools and gained good experience in full stack web development.
 
+### Other web development work ###
+
+> I worked on the front end for [42events.com](http://42events.com)
+
+> Created [blockbusters](http://blockbusters.herokuapp.com) using meteor.
+
 ### Score Vector _(Masters Thesis)_ ###
  
 > Designed and implemented a new evaluation scheme for RoboCup Rescue Agent
