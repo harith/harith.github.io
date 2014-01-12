@@ -17,3 +17,22 @@ layout: default
 </section>
 
 <hr class="vblock streak" />
+
+<section class="pure-g-r">
+    <div class="pure-u-1-2">
+        <a href="{{page.previous.url}}" class="post-nav post-nav-previous">
+            <div class="post-nav-indicator">&laquo; previous</div>
+            <div class="post-title">{{ page.previous.title }}</div>
+            <div class="post-summary">{{ page.previous.excerpt }}</div>
+        </a>
+    </div>
+    <div class="pure-u-1-2">
+        <a href="{{page.next.url}}" class="post-nav post-nav-next">
+            <div class="post-nav-indicator">next &raquo;</div>
+            <div class="post-title">{{ page.next.title }}</div>
+            <div class="post-summary">{{ page.next.excerpt }}</div>
+        </a>
+    </div>
+</section>
+
+<hr class="vblock streak" />

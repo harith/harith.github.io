@@ -265,11 +265,13 @@ a:active {
 
 .post-excerpt { margin: auto; width: 80% }
 
+.post-nav-indicator,
 .post-tags {
     font-family: sans-serif;
 }
 .post-tags li { display: inline-block; }
 .post-tag,
+.post-nav-indicator,
 .post-tag:visited {
     font-size: 0.75rem;
     font-weight: bold;
@@ -279,6 +281,12 @@ a:active {
 }
 .post-tag:before { content: '#'; }
 .post-tag:hover { opacity: 1; }
+
+.post-nav { display: block; }
+.post-nav-prev { padding-right: 2rem; }
+.post-nav-next { padding-left: 2rem; text-align: right; }
+.post-nav-indicator { padding: 0; margin-bottom: 1rem; }
+
 .posts li { margin-bottom: 1.5rem; }
 @media all and (min-width: 481px) {
     #container { width: 90%; }
