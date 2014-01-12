@@ -121,7 +121,7 @@ header .streak { z-index: -1; }
     vertical-align: top;
 }
 
-.post-summary, .post-date { font-size: 0.9rem; }
+.post-summary, .post-date { font-size: 0.9rem; line-height: 1.8; }
 .post-title { font-size: 1rem; font-weight: bold;  }
 .post-title, .post-date {margin-bottom: 0.5rem;}
 
@@ -288,20 +288,21 @@ a:active {
 .post-nav-indicator { padding: 0; margin-bottom: 1rem; }
 
 .posts li { margin-bottom: 1.5rem; }
-@media all and (min-width: 481px) {
+@media all and (min-width: 30em) {
     #container { width: 90%; }
     .text-heavy { font-size: 1.25rem; }
     .circle { display: block; }
 }
 
-@media all and (min-width: 769px) {
+@media all and (min-width: 48em) {
     #container { width: 80%; }
     .cake-box { font-size: 2.25rem; }
     .text-heavy { font-size: 1.05rem; }
     .posts li { margin-bottom: 2rem; }
+    .post-nav + hr { display: none; }
 }
 
-@media all and (min-width: 1025px) {
+@media all and (min-width: 64em) {
     #container { width: 60%; }
     .cake-box { font-size: 2.5rem; }
 }
