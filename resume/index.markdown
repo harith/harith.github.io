@@ -69,13 +69,15 @@ title: Harith Siddhārtha - CV
 
  ---
 
-## Publications ##
+## Publications  [<i class="fa fa-external-link"></i>][dblp] ##
 
 * **Retrospective Analysis of RoboCup Rescue Agent Teams using Score Vector**  
     _(Proc. of Autonomous and Multi-Agent Systems, May 2009, Budapest, Hungary)_
 
 * **Database Driven RoboCup Rescue Simulation Server**  
     _(Proc. of RoboCup Symposium, June 2008, Suzhou, China)_
+
+[dblp]: http://www.informatik.uni-trier.de/~ley/pers/hd/s/Siddhartha:Harith "List of publications"
 
  ---
 
@@ -86,3 +88,4 @@ title: Harith Siddhārtha - CV
 
 * **B.Tech. Hons.** (2008)  
     _International Institute of Information Technology, Hyderabad_
+
