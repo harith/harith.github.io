@@ -44,4 +44,11 @@ time I need to access that source, I type the ```<keyword>``` on the command
 line and hit ```return```. That's it. No commands. Just the keyword and whoop,
 __teleported__.
 
+**Edit:** _People have suggested more robust and sophisticated tools like
+[z][z] and [autojump][autojump].  What I [wrote][shellmarks-gist] is nowhere
+close to being an alternative to any of them. But for me, this will be a sweet
+supplement that takes me where I need without the overhead of another command._
+
 [shellmarks-gist]: https://gist.github.com/harith/8340924/ "shellmarks.sh"
+[z]: https://github.com/rupa/z "z"
+[autojump]: https://github.com/joelthelion/autojump "autojump"
