@@ -15,7 +15,7 @@ title: Harith Siddhārtha - CV
 
 ## Work Experience ##
 
-* _Support Engineer (Application Support, DevOps)_  
+* _Application Engineer_  
     at **Amazon.com, Hyderabad** (August 2010 - present)
 
 * _Research Assistant_  
