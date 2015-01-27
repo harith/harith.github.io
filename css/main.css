@@ -289,13 +289,20 @@ a:active {
 .post-nav-indicator { padding: 0; margin-bottom: 1rem; }
 
 .posts li { margin-bottom: 1.5rem; }
-@media all and (min-width: 30em) {
+
+@media
+all and (min-width: 30em),
+all and (-webkit-min-device-pixel-ratio: 2) and (min-width: 48em),
+{
     #container { width: 90%; }
     .text-heavy { font-size: 1.25rem; }
     .circle { display: block; }
 }
 
-@media all and (min-width: 48em) {
+@media
+all and (min-width: 48em),
+all and (-webkit-min-device-pixel-ratio: 2) and (min-width: 64em),
+{
     #container { width: 80%; }
     .cake-box { font-size: 2.25rem; }
     .text-heavy { font-size: 1.05rem; }
