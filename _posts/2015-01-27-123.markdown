@@ -8,7 +8,8 @@ categories:
 excerpt: భోజనానికి కష్టమైపోతోంది. ఇల్లు చూసుకోవటానికి కూడా ఎవ్వరూ లేరు
 ---
 
-<img src="http://i.imgur.com/BRZ1Kf1.jpg" />
+![asdf](http://i.imgur.com/BRZ1Kf1.jpg)
+{: .tac }
 
 <section class="tac video-container">
 <img class="custom-thumbnail" src="http://i.imgur.com/UrELLoD.png?1" width="560" height="315" style="cursor: pointer;"/>
