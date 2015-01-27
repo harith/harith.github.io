@@ -8,11 +8,12 @@ categories:
 excerpt: భోజనానికి కష్టమైపోతోంది. ఇల్లు చూసుకోవటానికి కూడా ఎవ్వరూ లేరు
 ---
 
+<img src="/img/pella.png" width="560" height="315" style="display: none; cursor: pointer;"/>
+
 <section class="tac video-container">
 <img class="custom-thumbnail" src="/img/pella.png" width="560" height="315" style="cursor: pointer;"/>
-<iframe class="embedded-video" style="display: none; margin: auto;" width="560" height="315" src="//www.youtube.com/embed/mf7sk4IydGo?start=660&end=664&autoplay=1&rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe class="embedded-video" style="display: none; margin: auto;" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
 </section>
-
 
 మీరు ఊహించింది నిజమే. అది విషయం.
 {: .tac}
@@ -67,5 +68,6 @@ var video     = document.querySelector('.embedded-video');
 thumbnail.addEventListener("click", function(e) {
     this.style.display = "none";
     video.style.display = "block";
+    video.src = "//www.youtube.com/embed/mf7sk4IydGo?start=660&end=664&autoplay=1&rel=0&amp;controls=0&amp;showinfo=0";
 });
 </script>
